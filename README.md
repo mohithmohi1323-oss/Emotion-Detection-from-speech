@@ -8,6 +8,20 @@ It also provides a **Streamlit Web Application** that allows real-time predictio
 
 ---
 
+## 📂 Project Structure  
+
+Emotion-Detection-from-Speech/
+│── app.py # Streamlit Web Application
+│── train_model.py # Script to train the model
+│── sample.py # Script to test audio files
+│── requirements.txt # Dependencies
+│── models/
+│ └── emotion_model.pkl # Trained Model File
+│── results.png # Results Image
+│──
+
+---
+
 ## 📌 Features  
 - Detects emotions from speech audio  
 - Real-time microphone input support  
