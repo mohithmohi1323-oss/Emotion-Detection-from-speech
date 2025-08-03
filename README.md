@@ -1,6 +1,3 @@
-# Emotion-Detection-from-speech
-This project detects human emotions from speech using MFCC feature extraction and a Random Forest Classifier. It can identify emotions such as happy, sad, angry, calm, fearful, and neutral. A Streamlit web app is included for real-time emotion detection through microphone input, making the system easy to use and interactive.
-
 # Emotion Detection from Speech 🎤  
 
 This project focuses on detecting **human emotions from speech** using **Machine Learning techniques**. By analyzing audio features such as **MFCC (Mel-Frequency Cepstral Coefficients)**, the system classifies emotions into categories like **Happy, Sad, Angry, Calm, Fearful, and Neutral**.  
@@ -49,6 +46,7 @@ streamlit run app.py
 | 03-02-06-02-02-01-23.wav | Fearful 😨 
     
 ___
+<img width="1366" height="655" alt="Figure_1" src="https://github.com/user-attachments/assets/962f3032-dfef-4c6a-8f04-5f90f898d730" />
 
 📊 Confusion Matrix Results
 
@@ -79,7 +77,9 @@ Sample Results
 
 🎧 03-02-02-01-02-01-24.wav → Calm 😌
 
-
+<img width="1245" height="653" alt="Screenshot 2025-08-03 172158" src="https://github.com/user-attachments/assets/69109918-9ef5-414b-bd5d-a278763f75c0" />
+- After recorded
+<img width="1208" height="657" alt="Screenshot 2025-08-03 172633" src="https://github.com/user-attachments/assets/d74d0b6b-21db-4673-9edc-ad697ca060d6" />
 ---
 
 🤝 Contributing
