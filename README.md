@@ -47,9 +47,22 @@ streamlit run app.py
 | 03-02-04-01-01-02-23.wav | Sad 😔            |
 | 03-02-05-02-01-01-24.wav | Angry 😡          |
 | 03-02-06-02-02-01-23.wav | Fearful 😨 
-
-       
+    
 ___
+
+📊 Confusion Matrix Results
+
+The confusion matrix above illustrates the performance of the Speech Emotion Detection model across six emotions: angry, calm, fearful, happy, neutral, and sad. Each row represents the actual emotion, while each column represents the predicted emotion.
+
+✅ The diagonal values indicate correct predictions.
+
+❌ Off-diagonal values show where the model confused one emotion with another.
+
+The model achieved high accuracy for emotions like sad (34 correct) and angry (33 correct).
+
+Some misclassifications occurred, such as fearful being confused with angry and happy with fearful.
+
+---
 
  📊 Results
 Sample Results
